@@ -18,7 +18,7 @@ async function main() {
 }
 
 app.get('/', (req, res) => {
-    res.json("I love my first docker CI!");
+    res.json("I love my docker CI!");
 });
 
 app.listen(PORT, () => {
